@@ -3,60 +3,35 @@ $(document).ready(function() { // do this when the document is loaded
 	$("#tab_2").hide();
 	$("#tab_3").hide();// hide the element with ID "otherElement"
 	$("#tab_4").hide();
-
-
-var countTab=1;
-
+});
 
 $("#tab1btn").click(function() { // when "button_id" is clicked
-	tabOne();
-});
-$("#tab2btn").click(function() { // when "button_id" is clicked
-	tabTwo();
-});
-$("#tab3btn").click(function() { // when "button_id" is clicked
-	tabThree();
-});
-$("#tab4btn").click(function() { // when "button_id" is clicked
-	tabFour();
-});
-
-
-function tabOne(){
 	$("#tab_1").show(); // show the element with ID "element"
 	$("#tab_2").hide();
-	$("#tab_3").hide();	
-	$("#tab_4").hide();// hide other element
-	countTab=1;
-}
+	$("#tab_3").hide();	// hide other element
+	$("#tab_4").hide();
+});
 
-function tabTwo(){
-
+$("#tab2btn").click(function() { // when "button_id" is clicked
 	$("#tab_2").show(); // show the element with ID "element"
 	$("#tab_1").hide();
-	$("#tab_3").hide();	
-	$("#tab_4").hide();// hide other element
-	countTab=2;
-
-}
-function tabThree(){
-
+	$("#tab_3").hide();	// hide other element
+	$("#tab_4").hide();
+});
+$("#tab3btn").click(function() { // when "button_id" is clicked
 	$("#tab_3").show(); // show the element with ID "element"
 	$("#tab_2").hide();
-	$("#tab_1").hide();
-	$("#tab_4").hide();	// hide other element
-	countTab=3;
+	$("#tab_1").hide();	// hide other element
+	$("#tab_4").hide();
+});
 
-}
-function tabFour(){
-
-	$("#tab_4").show(); // show the element with ID "element"
+$("#tab4btn").click(function() { // when "button_id" is clicked
+	$("#tab_3").hide(); // show the element with ID "element"
 	$("#tab_2").hide();
-	$("#tab_1").hide();
-	$("#tab_3").hide();	// hide other element
-	countTab=4;
+	$("#tab_1").hide();	// hide other element
+	$("#tab_4").show();
+});
 
-}
 
 
 $('.digit').click (function() {
@@ -70,6 +45,7 @@ $('.clearbtn').click (function() {
 	
 	
 });
+
 $('.deletebtn').click (function() {
 	var text = $("#dial-value").val();
 	$("#dial-value").val(" ");
@@ -118,4 +94,3 @@ $('.gesture').mouseleave(function() {
 
 
 
-});
