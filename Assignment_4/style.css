@@ -4,7 +4,7 @@
 
  }
  .tab_bar{
-	 background-color: aqua;
+	 background-color: #85929E;
  }
  #page{
 
@@ -67,7 +67,7 @@ li a {
   display: block;
   font-family: American Typewriter, serif;
   font-weight:800;
-  color: red;
+  color: aqua;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
