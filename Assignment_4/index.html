@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	<script src="blog.js"></script>
+	<title>Rofiq's Microservice Blog!</title>
+</head>
+<style>
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+}
+</style>
+<body class="body">
+
+
+<div id="page">
+<header id="site-header" role="banner">
+	<nav class ="tab_bar " role="navigation" aria-role="navigation">
+		<ul>
+			  <li class="w3-tangerine"><a class="active" role="tab" href="#home" aria-selected="true" aria-controls="home">Home</a></li>
+			  <li><a href="#about" role="tab" aria-selected="false" aria-controls="about">About</a></li>
+			  <li><a href="#archives" role="tab" aria-selected="false" aria-controls="archives">Archives</a></li>
+			  <li><a href="#contact" role="tab" aria-selected="false" aria-controls="contact">Contact Me </a></li>
+		</ul>
+	</nav>
+	
+	<h1 class="h1 w3-tangerine"> Microservice!</h1>
+</header>
+	<div class="container" role="main" aria-role="main">
+	<article id="post1">
+		<div class="post_content">
+			<p>
+			<img class="alignnone size-full wp-image-7152" 
+			src="microservice.gif" width="800" height="500">
+			<br/>
+			<header class="post_header">
+				<h2 class="w3-tangerine"> What are microservices?</h2>
+			</header>
+			<br/>
+			<p>
+			<em>
+			Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+			</p>
+			<ol>
+				<li>Highly maintainable and testable</li></br>
+				<li>Loosely coupled</li></br>
+				<li>Independently deployable</li></br>
+				<li>Organized around business capabilities</li></br>
+				<li>Owned by a small team</li></br>
+			</ol>
+			<p>
+			The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
+			</p>
+			</em>	
+			<header class="post_header">
+				<h2 class="w3-tangerine"> When should we use Microservices?</h2>
+			</header>
+			<p>
+			<em>
+			Any architectural style has trade-offs: strengths and weaknesses that we must evaluate according to the context that it's used. This is certainly the case with microservices. While it's a useful architecture - many, indeed most, situations would do better with a monolith.
+			</p>
+			</p>
+			<div class="recipe_content">
+				<div class="ingredients">
+				<h3>Microservices provide benefits…</h3>
+					<ol class="simmer-ingredients">
+						<li><u>Strong Module Boundaries:</u> Microservices reinforce modular structure, which is particularly important for larger teams.</li>
+						<li><u>Independent Deployment:</u> Simple services are easier to deploy, and since they are autonomous, are less likely to cause system failures when they go wrong.</li>
+						<li><u>Technology Diversity:</u> With microservices you can mix multiple languages, development frameworks and data-storage technologies.</li>
+					</ol>
+				</div>
+				<div class="instructions">
+				<h3 >…but come with costs</h3>
+				<ol class="simmer-ingredients">
+						<li><u>Distribution:</u> Distributed systems are harder to program, since remote calls are slow and are always at risk of failure.</li>
+						<li><u>Eventual Consistency:</u> Maintaining strong consistency is extremely difficult for a distributed system, which means everyone has to manage eventual consistency.</li>
+						<li><u>Operational Complexity:</u> You need a mature operations team to manage lots of services, which are being redeployed regularly.</li>
+						</ol>
+				</div>
+			
+									</div>
+			
+			
+			
+		</div>
+	</article>
+	<hr>
+	
+	<section  id="comment">
+		<div class="comment_wrap">
+		<h2 class="w3-tangerine" > Please leave a comment! </h2>
+		<div>
+		<div class="wrap-input" >
+		<label for="Name">NAME:</label>
+			<input id="Name" class="input2" type="text"  placeholder="Enter you name" aria-label="Name">			
+		</div>
+		
+		<div class="wrap-input">
+			<label for="Email">EMAIL:</label>
+			<input id="Email" class="input2" type="text" placeholder="Enter your email address" aria-label="Email">
+		</div>
+		<div class ="wrap-input">
+			<label for="Message">COMMENT:</label>
+			<input id="Message" class ="input2" type="text" placeholder="Enter your comment"aria-label="Message">
+		</div>
+		<button aria-labelledby="submit" id="submit"  type="submit">Submit </button>
+		</div>
+		</div>
+		<div id="dialog" title="Your Comment:" role="alert" >
+		<p>Your comment has been uploaded!</p>
+			</div>
+	</section>
+
+
+	<footer class="site-footer" >
+		<div class="wrap">
+		<p>Copyright ©&nbsp;2020 · Microservice!  · Md Rofiqul Islam</p>
+		</div>
+	</footer>
+</div>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+		<script src="blog.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+
+ .body{
+ background-color:white;
+
+ }
+ .tab_bar{
+	 background-color: aqua;
+ }
+ #page{
+
+max-width:1080px;
+padding: 0 15px;
+margin: 0 auto;
+
+ }
+ p{text-align:justify;
+  margin: 5px 0 15px;
+ 
+ }
+img.alignnone {
+    margin-bottom: 12px;
+}
+ .h1{
+	 text-align:center;
+	    font-family: Book Antiqua;
+		font-weight: 800;
+	 font-size:80px;
+	 text-shadow:0 0 1px;
+	 color:#3498DB;
+ }
+ h2{color:red;
+	 text-align:left;
+	  font-family: bodoni,serif;
+	  font-weight: 800;
+	 font-size:40px;
+ }
+ .container {
+ position: absolute;
+ left: 25%;
+ margin-left: -50px;
+ width: 800px;
+ height: 100%;
+ text-align: center;
+  background-color: inherit;
+
+ }
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+#comment {
+padding: 20px 0;}
+
+hr{
+width:800px;}
+
+li a {
+  display: block;
+  font-family: American Typewriter, serif;
+  font-weight:800;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { background-color: #111;
+}
+  
+  .ingredients {
+    display: inline;
+    float: left;
+    margin-bottom: 40px;
+  width: 50%;}
+  
+  .instructions {
+    clear: right;
+    display: inline;
+    float: right;
+    margin-bottom: 40px;
+  width: 50%;}
+ 
+ .simmer-ingredients{
+  margin:0}
+  .simmer-instructions{
+  margin:0}
+
+.simmer-ingredients li {
+    margin-bottom: 0.5em;
+	list-style-type: disc;
+}
+.simmer-instructions li {
+    margin-bottom: 0.5em;
+	text-align: left;
+	    display: list-item;
+}
+
+}
+li {
+    display: list-item;
+    text-align: left;
+}
+
+
+label {
+float:left;
+font-family: Poppins-Regular;}
+input {
+    outline: none;
+    border: none;
+}
+.wrap-input{
+	width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+margin-bottom: 37px;}
+
+ .site-footer {
+    font-family: "PT Serif","Helvetica Neue",sans-serif;
+    font-weight: 400;  
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input.input2 {
+    height: 45px;
+}
+
+.input2 {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+	background-color:inherit;
+    line-height: 1.2;
+}
+#submit {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  width:100px;
+  height:40px;
+  border-radius:6px;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: bold;
+  font-size: Poppins-Regular;
+  font-family: 15px;
+  color:white;
+  background-color:black;
+  font-weight: bold;
+}
+    #submit:focus {
+    outline: 1px dotted white;
+    outline-offset: -4px;
+  }
+#submit:hover{
+    transition: all 150ms linear;
+
+    opacity: .85;
+  }
+#dialog{
+display:none;
+ font-family: Poppins-Regular;
+ border-radius:4px;
+ margin-top:10px;
+  padding: 20px;
+  font-size: 15px;
+  background-color: #1ABC9C;
+  color: white;
+}}
