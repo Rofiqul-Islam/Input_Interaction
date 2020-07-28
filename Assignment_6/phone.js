@@ -91,6 +91,7 @@ $('.gesture').mouseup(
 $("#tab5btn").click(function () {
 	var str = window.location.href;
 	console.log(str);
+	window.location = "index-large.html";
 	if(str.indexOf("index.html")!=-1){
 		window.location = "index-large.html";
 	}else if(str.indexOf("index-large.html")!=-1){
