@@ -1,0 +1,188 @@
+ @import "https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css";
+ @import "https://unpkg.com/purecss@1.0.0/build/pure-min.css";
+ @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+ 
+ .h1 {
+	text-align: center; 
+ }
+ .container {
+ position: absolute;
+ top: 10%;
+ left: 30%;
+ margin-top: -50px;
+ margin-left: -50px;
+ width: 670px;
+ height: 600px;
+ text-align: center;
+ align-items: center;
+
+ 
+  background-color: silver;
+  box-shadow: 5px 5px 5px grey;
+ }
+ .tab_bar 
+ {overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius:4px;
+  box-shadow: 5px 5px 5px blue;
+font-weight: bold;
+ margin: auto;
+  padding: 0;
+  padding-left: 10px;
+
+ }
+ .tab_bar button {
+	 font-family:Arial;
+ background-color: lightcyan;
+  float: left;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+ }
+
+ .tab_bar button:hover {
+  background-color: darkcyan;
+}
+.tab_bar img {
+margin-right: 5px;
+}
+
+.tab-content {
+width: 640px;
+display: inline-block”;
+top: 30%;
+left: 30%;
+margin-left:10px;
+align-items: center;}
+
+.tab1, .tab2, .tab3,.tab4 {
+	width:100%;
+}
+
+#dial-value{
+	width:97%;
+}
+
+ .button-secondary {
+   color: black;
+   border-radius: 4px;
+	padding: 10px;
+ 
+	width: 90%;
+	background-color:darkcyan;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;			
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;	
+}
+ .button-secondary-s {
+   color: black;
+   border-radius: 4px;
+	padding: 10px;
+ 
+	width: 100%;
+	background-color:darkcyan;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;			
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	
+}
+ .new {
+	 align-items:center;
+ }
+.button-secondary:hover {
+background-color:#6c7c7c;
+}
+		.contactclear, .addcontact{
+display:inline-block;
+
+border:0.16em solid rgba(255,255,255,0);
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+width: 90%;
+}
+.contactclear:hover ,.addcontact:hover{
+border-color: rgba(255,255,255,1);
+}
+
+.contactclear, .addcontact{display:block;
+margin:0.2em auto;
+}
+
+.dialbtn ,.clearbtn,.deletebtn{
+	color: black;
+background-color:#dbe6c4;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  margin-left: 15px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #6c7c7c;
+  color:white;
+  font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  
+}
+
+.magnifier, .low_vision{
+
+	text-align:justify;
+	font-size:20px;
+	font-family:Arial;
+	height:170px;
+	overflow-y:scroll;
+	margin-left:20px;
+	background-color:white;
+}
+.text1{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.gesture {
+width: 400px;
+display: inline-block;
+height: 250px;
+ background-color: #ddd;
+top: 30%;
+    left: 30%;
+  align-items: center;
+}
+#dial-value{
+	width:97%;
+}
