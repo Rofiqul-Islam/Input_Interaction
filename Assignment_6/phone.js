@@ -88,10 +88,9 @@ $('.gesture').mouseup(
 		 
 	});
 	
-$("#tab5btn").click(function () {
+$("#tab5bt").click(function () {
 	var str = window.location.href;
 	console.log(str);
-	window.location = "index-large.html";
 	if(str.indexOf("index.html")!=-1){
 		window.location = "index-large.html";
 	}else if(str.indexOf("index-large.html")!=-1){
@@ -101,7 +100,7 @@ $("#tab5btn").click(function () {
 	}
 				
 });
-$("#tab6btn").click(function () {
+$("#tab6bt").click(function () {
     var str = window.location.href;
 	if(str.indexOf("index.html")!=-1){
 		window.location = "index-contrast.html";
@@ -112,6 +111,15 @@ $("#tab6btn").click(function () {
 	}
 				
 });
+
+ $("#tab5btn").click(function () {
+                $('link').attr('href', 'phone-large.css');
+				
+            });
+ $("#tab6btn").click(function () {
+                $('link').attr('href', 'phone-contrast.css');
+				
+            });
 	
 $('.gesture').mouseleave(function() {
 	$("#gesture_output").val(" ");
