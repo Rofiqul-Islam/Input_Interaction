@@ -112,12 +112,31 @@ $("#tab6bt").click(function () {
 				
 });
 
+var l=0;
+var c=0;
  $("#tab5btn").click(function () {
-                $('link').attr('href', 'phone-large.css');
+	 if(l==0){
+		 $('link').attr('href', 'phone-large.css');
+		 l=1;
+		 c=0;
+	 }else{
+		 $('link').attr('href', 'phone.css');
+		 l=0;
+	 }
+	 
+                
 				
             });
  $("#tab6btn").click(function () {
-                $('link').attr('href', 'phone-contrast.css');
+	 if(c==0){
+		$('link').attr('href', 'phone-contrast.css');
+		 c=1;
+		 l=0;
+	 }else{
+		 $('link').attr('href', 'phone.css');
+		 c=0;
+	 }
+                
 				
             });
 	
