@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body onload="startButton()">
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<h3>Instructions for using the app</h3>
+				<p> <b>One Button:</b> The application starts automatically when it is loaded. Each button is selected at 1 second time interval.
+				To select a specific button on the calculator, user needs to use 's' key on the keyboard.</p>
+				<p> <b>Two Button: </b> User can also go to next button using key "n" and select specific button using key "s" on keyboard if he/she does not want to wait for 1 second time interval.
+				<h3>Test Description</h3>
+				<p>The application has been tested with three versions:
+				<li> Navigation using two keys, one for moving to next button, another for selecting the button.[ 'n' for movement', 's' for selection ] </li>
+				<li> Navigation using one key, continuous selection of row after 3 seconds of interval. </li>
+				<li> Navigation using one key, continuous selection of row after 1 second of interval. </li>
+				</p>
+				<p> User was given five equations : "10 * 5 + 30 ", 855 / 55 - 3*15", "6 * 12 + 12 - 6", "8 * 45 * 25 + 28 - 3", "7 * 45 /25 + 26 + 10", 100 * 25 - 25*25 +500/100 .
+				User was tested on four trials for each version: hand, using back of the hand, using forearms, using foot
+-				</p>
+			<h3>Test Result</h3>
+			<p>User has made errors in all trials except hand and had to start over for completing the test. On average, more errors were made when using forearms
+				and foot, than when using hand or back of hand. When using two keys, user found difficulty as the keys were very far apart from each
+				other on the keyboard, and thus	took more time to complete with foot and forearms. One user made 5-6 errors in those versions. In the other two versions, the user took around 3 minutes
+			to complete each equation, and made 2-3 errors. However, the version with 3 seconds navigation interval caused more time delay for user and made him disappointed of waiting too much. 				
+			Overall, the user found the version with one key and 1 second span as the most satisfying.</p>
+				
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
